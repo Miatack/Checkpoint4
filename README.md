@@ -1,1 +1,3 @@
-# Checkpoint4
+# Checkpoint 4
+## Initialization
+## Use
