@@ -21,7 +21,7 @@ export default class Navbar extends Component {
           </NavItem>
           <NavItem>
             <NavLink href="/About/">About<Badge color="danger">Tout</Badge></NavLink>
-          </NavItem>
+            </NavItem>
         </Nav>
       </div>
     )
