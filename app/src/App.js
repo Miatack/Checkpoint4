@@ -4,7 +4,8 @@ import Header from './Component/Header'
 import './App.css';
 import Footer from './Component/Footer';
 import Performance from './Component/Performance';
-import Program from './Component/Program'
+import Program from './Component/Program';
+import Maps from './Component/Maps';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Performance} />
           <Route path="/Program/" component={Program} />
+          <Route path="/Maps/" component={Maps} />
         </Switch>
       </BrowserRouter>
       <Footer />
