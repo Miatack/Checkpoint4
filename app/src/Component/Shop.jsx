@@ -3,7 +3,7 @@ import './Shop.scss'
 export default class Shop extends Component {
   render() {
     return (
-      <div>
+      <div class="shop">
         <h3>Shop</h3>
       </div>
     )
