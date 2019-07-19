@@ -7,6 +7,7 @@ import Performance from './Component/Performance';
 import Program from './Component/Program';
 import Maps from './Component/Maps';
 import Shop from './Component/Shop';
+import About from './Component/About'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/Program/" component={Program} />
           <Route path="/Maps/" component={Maps} />
           <Route path="/Shop/" component={Shop} />
+          <Route path="/About/" component={About} />
         </Switch>
       </BrowserRouter>
       <Footer />
