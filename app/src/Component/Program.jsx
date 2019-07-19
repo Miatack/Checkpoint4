@@ -4,7 +4,7 @@ import './Program.scss'
 export default class Program extends Component {
   render() {
     return (
-      <div>
+      <div class="prog">
         <h3>18H00</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dolorum aliquam nulla debitis fuga natus, rerum accusantium blanditiis, quos voluptatem repellendus labore cumque. Illo blanditiis cumque nihil voluptate cupiditate fugit.</p>
         <h3>18H15</h3>

@@ -4,7 +4,7 @@ import './Performance.scss'
 export default class Performance extends Component {
   render() {
     return (
-      <div>
+      <div class="perf">
         <h3>Laugh</h3>
         <p>As an adult, come and discover our irresistible clowns, between practical jokes and pranks let yourself be carried away by their joy and fall back into childhood. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas facere quasi excepturi natus asperiores eaque deleniti voluptas enim assumenda, possimus accusantium deserunt cupiditate, sed, atque magni molestiae in ea est. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis doloremque est sequi, repudiandae in eaque quisquam cumque minima nam eius veniam. Velit esse nostrum natus atque earum maxime nemo maiores. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi minus odit culpa ratione voluptate odio, laboriosam consequatur natus, dicta esse enim dolorum iusto adipisci dolor temporibus tenetur. Natus, necessitatibus iure.</p>
         <h3>Dream</h3>
