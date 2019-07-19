@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './shop.scss'
+import './Shop.scss'
 export default class Shop extends Component {
   render() {
     return (

@@ -17,7 +17,7 @@ export default class Navbar extends Component {
             <NavLink href="/Maps/">Map</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink disabled href="#">Shop</NavLink>
+            <NavLink href="/Shop/">Shop</NavLink>
           </NavItem>
           <NavItem>
             <NavLink disabled href="#">About</NavLink>
