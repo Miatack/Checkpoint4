@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Nav, NavItem, NavLink } from 'reactstrap';
+import LegalMention from './Footer/LegalMention';
+import CGU from './Footer/Cgu'
 
 export default class Footer extends Component {
   render() {
@@ -7,13 +9,13 @@ export default class Footer extends Component {
       <div>
         <Nav>
           <NavItem>
-            <NavLink dark href="https://www.linkedin.com/in/jeremy-ortuno/">Jeremy Ortuno - 2019</NavLink>
+            <NavLink href="https://www.linkedin.com/in/jeremy-ortuno/">Jeremy Ortuno - 2019</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink disabled href="#">CGU</NavLink>
+            <CGU />
           </NavItem>
           <NavItem>
-            <NavLink disabled href="#">Legal</NavLink>
+            <LegalMention />
           </NavItem>
         </Nav>
       </div>
