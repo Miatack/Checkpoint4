@@ -14,7 +14,7 @@ export default class Navbar extends Component {
             <NavLink href="/Program/">Program<Badge color="success">Style</Badge></NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/Maps/">Map<Badge color="danger">API</Badge></NavLink>
+            <NavLink disabled href="/Maps/">Map</NavLink>
           </NavItem>
           <NavItem>
             <NavLink href="/Shop/">Shop<Badge color="danger">Js</Badge></NavLink>
