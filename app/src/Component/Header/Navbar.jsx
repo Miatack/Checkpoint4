@@ -20,7 +20,7 @@ export default class Navbar extends Component {
             <NavLink href="/Shop/">Shop<Badge color="danger">Js</Badge></NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/About/">About<Badge color="danger">Tout</Badge></NavLink>
+            <NavLink href="/About/">About<Badge color="success">Style</Badge></NavLink>
             </NavItem>
         </Nav>
       </div>
