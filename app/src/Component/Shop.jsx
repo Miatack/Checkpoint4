@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
 import { InputGroup, InputGroupAddon, Input, Button } from 'reactstrap';
-import './Shop.scss'
+import './Assets/Style.scss'
+
 export default class Shop extends Component {
   render() {
     return (
-      <div class="shop">
+      <div className="shop">
         <h3>Shop</h3>
         <InputGroup>
           <InputGroupAddon addonType="prepend">Adult</InputGroupAddon>
