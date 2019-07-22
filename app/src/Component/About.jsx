@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { Button, Form, FormGroup, Label, Input} from 'reactstrap';
-import './About.scss';
+import './Assets/Style.scss'
 
 export default class About extends Component {
   render() {
     return (
-      <div class="about">
+      <div className="about">
         <h3>About Circus and Staff</h3>
         <p><img 
           src="https://thumbs-prod.si-cdn.com/wbzF7yL7WNDB0pVCywRmXcUm4nM=/fit-in/1072x0/https://public-media.si-cdn.com/filer/72/0a/720a5890-a738-4807-abbd-56609cc730e4/l1060040.jpg" 

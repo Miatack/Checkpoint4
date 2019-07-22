@@ -1,0 +1,65 @@
+div {
+  color: white;
+  background-color: #ff9194;
+}
+
+// Header
+div .header {
+  min-height: 20vh;
+  width: 100%;
+  display: block;
+  h1{
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold,
+  }
+}
+//NAV
+div .nav {
+  display: flex;
+  justify-content: space-around;
+}
+//BODY
+
+div .perf , div .prog , div .shop , div .about{
+  min-height: 70vh;
+  width: 90vw;
+  margin: 0 auto 3vh;
+  h3 {
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+  }
+  p {
+    text-align: justify;
+  }
+}
+
+div .shop { 
+  .input-group {
+    width: 256px;
+    margin: 32px auto;
+  }
+  button {
+    float: right;
+  }
+}
+
+div .about {
+  img {
+    width: 128px;
+    border-radius:50%;
+    position: relative;
+	    float: left;
+	    margin: 5px 24px 24px 0px;
+  }
+  p {
+    float: right;
+  }
+}
+
+
+//Footer
+div .footer {
+  padding-bottom: 2vh;
+}
